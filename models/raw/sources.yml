@@ -1,0 +1,18 @@
+
+version: 2
+
+sources:
+  - name: source_raw
+    database: ecommerce_dwh
+    schema: raw
+
+    tables:
+      - name: customers
+      - name: orders
+      - name: products
+      - name: locations
+      - name: categories
+      - name: order_items
+      - name: inventory
+      - name: addresses
+      - name: payments
